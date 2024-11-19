@@ -34,7 +34,7 @@ document.getElementById('FormularioInicio').addEventListener('submit', async (e)
             const usuario = docSnapshot.data();
             // Verificar si la contraseña es correcta
             if (usuario.contraseña === password) {
-                window.location.href = 'https://romancb19.github.io/AccesNexus/Home/home.html';
+                window.location.href = '/Home/home.html';
 
 
             } else {
