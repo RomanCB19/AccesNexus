@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const employeeName = document.getElementById('employee-name').innerText;
             localStorage.setItem('employeeName', employeeName);
             // Redirige a home.html (ajusta la ruta según sea necesario)
-            window.location.href = "/informacionEmpleados/infoEmpleado.html";
+            window.location.href = "../informacionEmpleados/infoEmpleado.html";
         });
     }
 });

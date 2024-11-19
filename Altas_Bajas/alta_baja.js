@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
         regresarBtn.addEventListener('click', () => {
             const employeeName = document.getElementById('employee-name').innerText;
             localStorage.setItem('employeeName', employeeName);
-            window.location.href = "/informacionEmpleados/infoEmpleado.html";
+            window.location.href = "../informacionEmpleados/infoEmpleado.html";
         });
     }
 });
