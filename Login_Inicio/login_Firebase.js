@@ -34,7 +34,8 @@ document.getElementById('FormularioInicio').addEventListener('submit', async (e)
             const usuario = docSnapshot.data();
             // Verificar si la contraseña es correcta
             if (usuario.contraseña === password) {
-                window.location.href = '/Home/home.html';
+                window.location.href = '/AccesNexus/Home/home.html';
+
             } else {
                 alert('Contraseña o Correo incorrectos');
             }
